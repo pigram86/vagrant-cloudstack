@@ -1,4 +1,4 @@
-FROM debian:8
+FROM debian:bookworm-20240211
 
 MAINTAINER Bob van den Heuvel <bvandenheuvel@schubergphilis.com>
 
