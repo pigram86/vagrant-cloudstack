@@ -7,7 +7,7 @@ group :development do
   # gem dependency because we expect to be installed within the
   # Vagrant environment itself using `vagrant plugin`.
   gem 'vagrant', git: 'https://github.com/mitchellh/vagrant.git', tag: 'v2.0.3'
-  gem 'coveralls', require: false
+  gem 'coveralls', '>= 0.7.3', require: false
   gem 'simplecov', require: false
   gem 'rspec-core'
   gem 'rspec-expectations'
